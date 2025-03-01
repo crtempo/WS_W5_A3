@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Task 1 - Using CSS -->
+  <title>Task 1 - Using CSS</title>
+  <style>
+    h1 {
+      color: green;
+      text-align: left;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-style: dotted;
+      border-color: blue;
+    }
+    h2 {
+      color: red;
+      text-align: left;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h3 {
+      color: blue;
+      text-align: left;
+      font-size: 15px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .table {
+      border-style: dashed;
+    }
+    .table_row_top {
+      background-color: blue;
+      font-size: larger;
+      font-weight: bold;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .table_row_even {
+      font-family: Arial, Helvetica, sans-serif;
+      color: darkmagenta;
+      background-color: antiquewhite;
+    }
+    .table_row_odd {
+      background-color: grey;
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+  <body>
+    <!-- Task 1 - Using CSS -->
+    <h1>9179203 Craig Templeton</h1>
+    <h2>COMP804: Web Security</h2>
+    <h3>Assignment 1, due at the end of week 5</h3>
+    <br><br>
+
+    <!-- Task 2 - Using CSS to style a table -->
+    <table class="table">
+      <tbody>
+        <tr class="table_row_top">
+          <th width="600" align="left">Activity</th>
+          <th width="200" align="left">Date</th>
+        </tr>
+        <tr class="table_row_even">
+          <td align="left">First day of enrol for re-enrolling (continuing students)</td>
+          <td align="left">18 Nov 2024</td>
+        </tr>
+        <tr class="table_row_odd">
+          <td align="left">Orientation</td>
+          <td align="left">24 Feb - 27 Feb 2025</td>
+        </tr>
+        <tr class="table_row_even">
+          <td align="left">Lectures Commence (weeks 1-7)</td>
+          <td align="left">03 Mar - 18 Apr 2025</td>
+        </tr>
+        <tr class="table_row_odd">
+          <td align="left">Last day to enrole / add subjects with Head of Students approval</td>
+          <td align="left">21 Mar 2025</td>
+        </tr>
+        <tr class="table_row_even">
+          <td align="left">
+            CENSUS DATE
+            <ul>
+              <li>Fees Due</li>
+              <li>Last Day to withdraw from subject/s without paying for them</li>
+              <li>HECS/FEE HELP debt reporting date</li>
+              <li>Last day to change HECS/FEE HELP billing option</li>
+              <br>
+              <a href="https://www.uow.edu.au/student/dates/#d.en.186573" target="_blank">Learn more about Census date</a>
+            </ul>
+          </td>
+          <td align="left">31 Mar 2025</td>
+        </tr>
+        <tr class="table_row_odd">
+          <td align="left">Student Services and Amenities Fees Due</td>
+          <td align="left">01 Apr 2025</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+
+  <!-- Task 3 - Ten types on web attacks -->
+  <style>
+      .headerrow {
+          background-color: aquamarine;
+      }
+      .basefont {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: smaller;
+      }
+      .list-item {
+        list-style-type: none;
+        align-items: left;
+        display: block;
+        margin: 5px;
+      }
+      .list-item img {
+        width: 100px;
+        height: 100px; 
+        margin-right: 10px;
+        align-items: left; 
+      }
+  </style>
+
+  <table border="1" class="basefont">
+      <tbody>
+        <tr class="headerrow">
+          <th width="200" align="left">Name</th>
+          <th width="600" align="left">Web Attacks</th>
+        </tr>
+        <tr>
+          <td align="left">
+            SQL Injection
+          <br>
+          <img src="sql.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br><br>
+          <td align="left">
+            Any website that is driven by databases can be suseptible to a SQL injection attack <br><br>
+            A SQL query is a request for some action to be performed on a database, and malicious request can create, modify or delete the data stored in the database. <br>
+            All sorts of data can be manipulated or copied if successfull
+          <br><br>
+          Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+          
+      </tr>
+
+        <tr>
+          <td align="left">
+            Phishing
+          <br>
+          <img src="phishing.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">In phishing, an attacker masquerades as a reputable organization or individual to trick an unsuspecting victim into handing over valuable information, such as passwords, credit card details and intellectual property. Based on social engineering techniques, phishing campaigns are easy to launch and surprisingly effective. Emails are most commonly used to distribute malicious links or attachments, but phishing attacks can also be conducted through text messages (SMS phishing, or smishing) and phone calls (voice phishing, or vishing).
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            BotNet
+          <br>
+          <img src="botnets.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">A botnet is a group of internet-connected computers and networking devices that are infected with malware and controlled remotely by cybercriminals. Vulnerable IoT devices are also being compromised by attackers to increase the size and power of botnets. They're often used to send email spam, engage in click fraud campaigns and generate malicious traffic for DDoS attacks.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            DDos attack
+          <br>
+          <img src="ddos.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">A distributed denial-of-service (DDoS) attack involves the use of numerous compromised computer systems or mobile devices to target a server, website or other network resource. The goal is to slow it down or crash it completely by sending a flood of messages, connection requests or malformed packets, thereby denying service to legitimate users.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            DNS Spoofing
+          <br>
+          <img src="dnsspoofing.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">The DNS enables users to access websites by mapping domain names and URLs to the IP addresses that computers use to locate sites. Hackers have long exploited the insecure nature of DNS to overwrite stored IP addresses on DNS servers and resolvers with fake entries so victims are directed to an attacker-controlled website instead of the legitimate one. These fake sites are designed to look exactly like the sites that users expected to visit. 
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            DNS Tunnelling
+          <br>
+          <img src="dnstunnel.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">Because DNS is a trusted service, DNS messages typically travel through an organization's firewalls in both directions with little monitoring. However, this means an attacker can embed malicious data, such as command-and-control messages, in DNS queries and responses to bypass -- or tunnel around -- security controls. For example, the hacker group OilRig, which has suspected ties to Iran, is known to use DNS tunneling to maintain a connection between its command-and-control server and the systems it's attacking.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            Malware attack
+          <br>
+          <img src="malware.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">Malware, short for malicious software, is an umbrella term used to refer to a hostile or intrusive program or file that's designed to exploit devices at the expense of the user and to the benefit of the attacker. There are various forms of malware that all use evasion and obfuscation techniques designed to not only fool users, but also elude security controls so they can install themselves on a system or device surreptitiously without permission.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            Password Attack
+          <br>
+          <img src="password.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">Despite their many known weaknesses, passwords are still the most common authentication method used for computer-based services, so obtaining a target's password is an easy way to bypass security controls and gain access to critical data and systems. Attackers use various methods to illicitly acquire passwords.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            Ramsonware
+          <br>
+          <img src="ransom.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">Ransomware is usually installed when a user visits a malicious website or opens a doctored email attachment. Traditionally, it exploits vulnerabilities on an infected device to encrypt important files, such as Word documents, Excel spreadsheets, PDFs, databases and system files, making them unusable. 
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+
+        <tr>
+          <td align="left">
+            URL Poisoning
+          <br>
+          <img src="url.jpeg" alt="icon" width="100" height="100">
+          <br>
+          Image Source: https://www.techtarget.com
+          <br>
+          <td align="left">It's easy for attackers to modify a URL in an effort to access information or resources. For example, if an attacker logs in to a user account they've created on a website and can view their account settings at https://www.awebsite.com/acount?user=2748, they can easily change the URL to, say, https://www.awebsite.com/acount?user=1733 to see if they can access the account settings of the corresponding user. If the site's web server doesn't check whether each user has the correct authorization to access the requested resource, particularly if it includes user-supplied input, the attacker likely will be able to view the account settings of every other user on the site.
+              <br><br>
+              Source: <a href="https://www.techtarget.com/searchsecurity/tip/6-common-types-of-cyber-attacks-and-how-to-prevent-them" target="_blank">www.techtarget.com</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <br><br><br>
+
+
+  <!-- Task 4 -->
+  <!-- References - Images sources https://www.britannica.com/-->
+
+    <title>Button Click Highlight and Image Display</title>
+      <style>
+          .highlight {
+              background-color: yellow;
+          }
+          .img {
+              display: none;
+              max-width: 300px;
+          }
+          .borders{
+              border: 2px solid grey;
+              padding: 5px;
+              width: fit-content;
+              margin-top: 10px;
+              margin-bottom: 20px;            
+          }
+      </style>
+
+    <body>
+      <button id="catButton" onClick="cat()">Cat</button>
+      <button id="dogButton" onClick="dog()">Dog</button>
+      <button id="frogButton" onClick="frog()">Frog</button>
+      <br><br>
+      <div id="message"></div>
+      <div id="display"></div>
+      <img id="catImage" src="cat.jpg" alt="Cat Picture" class="img">
+      <img id="dogImage" src="dog.jpg" alt="Dog Picture" class="img">
+      <img id="frogImage" src="frog.jpg" alt="Frog Picture" class="img">
+      <br><br>
+
+    <script>
+      function cat() {
+          displayMessage('Cat is Clicked');
+          highlightButton('catButton');
+          var textField = document.getElementById("display");
+          textField.innerHTML = "User clicks Cat";
+          displayImage('catImage');
+      }
+      function dog() {
+          displayMessage('Dog is Clicked');
+          highlightButton('dogButton');
+          var textField = document.getElementById("display");
+          textField.innerHTML = "User clicks Dog";
+          displayImage('dogImage');
+      }
+      function frog() {
+          displayMessage('Frog is Clicked');
+          highlightButton('frogButton');
+          var textField = document.getElementById("display");
+          textField.innerHTML = "User clicks Frog";
+          displayImage('frogImage');
+      }
+      function highlightButton(buttonId) {
+          var buttons = document.querySelectorAll('button');
+          buttons.forEach(button => button.classList.remove('highlight'));
+          document.getElementById(buttonId).classList.add('highlight');
+      }
+      function displayImage(imageId) {
+          var images = document.querySelectorAll('.img');
+          images.forEach(image => image.style.display = 'none');
+          document.getElementById(imageId).style.display = 'block';
+      }
+      function displayMessage(message) {
+          var messageDiv = document.getElementById("message");
+          messageDiv.innerHTML = message;
+          messageDiv.classList.add("borders");
+      }
+  </script>
+  </body>
+  
+  <br><br><br>
+  <!-- Task 5 -->
+  <!-- Hyperlink to Githbub report-->
+
+  <body>
+    <a href="https://www.example.com" class="styled-link">GITHUB report</a>
+  </body>
+</html>
+
